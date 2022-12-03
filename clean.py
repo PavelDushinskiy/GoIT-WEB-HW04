@@ -1,10 +1,12 @@
-"""Procedure for sorting files in directory
+"""
+    Procedure for sorting files in directory
     All files and folders are renamed using the normalize function;
     File extensions do not change after renaming;
     Empty folders are deleted;
     The unpacked contents of the archive are transferred to the archives' folder
     in a sub folder named the same as the archive;
     Files whose extensions are unknown remain unchanged.
+    Added threading
 """
 
 import os
